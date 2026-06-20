@@ -1,22 +1,39 @@
-# Soroban Project
+# LockPay
 
-## Project Structure
+A time-locked savings app for Gen Z students using Stellar.
 
-This repository uses the recommended structure for a Soroban project:
+---
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+## Problem
+A college student in Manila overspends their weekly allowance and fails to save money.
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+## Solution
+LockPay lets users lock funds in a smart contract until a chosen date, preventing impulsive withdrawals.
+
+---
+
+## Timeline
+- Day 1: Smart contract
+- Day 2: Frontend deposit UI
+- Day 3: Testing + polish
+
+---
+
+## Stellar Features Used
+- USDC transfers
+- Soroban smart contracts
+
+---
+
+## Vision and Purpose
+Help Gen Z build financial discipline through enforced saving using blockchain.
+
+---
+
+## Prerequisites
+- Rust
+- Soroban CLI
+
+---
+
+## Build
