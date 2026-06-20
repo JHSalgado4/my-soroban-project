@@ -2,6 +2,8 @@
 
 A time-locked savings app for Gen Z students using Stellar.
 
+
+![Picture](SmartContract.png)
 ---
 
 ## Problem
